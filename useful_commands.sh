@@ -1,4 +1,6 @@
+########################################
 # Display Total Connect Time of Users
+########################################
 
 # -d - breakdown output for individual days for the current logged in user.
 # -p - displays connect time for all the users
@@ -23,7 +25,6 @@ nohup ./my-shll-script.sh &
 # you logout. But "you cannot connect to the same session" again to see what is happening on the screen
 # hence use the screen command
 # It offers ability to detach a session and then attach to it at later time
-
 
 
 # "At"

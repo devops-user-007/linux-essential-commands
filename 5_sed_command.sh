@@ -9,18 +9,7 @@
 # Change the word "Linux" to "Linux-Unix" using sed
 # since no flags are specified, the first match of line is replaced. So only first Linux is replaced
 sed 's/Linux/Linux-Unix/' myfile.txt
-
-# substitute all appearances now
-sed 's/Linux/Linux-Unix/g' myfile.txt
-
-
-# Change the second occurence
-sed 's/Linux/Linux-Unix/2' myfile.txt
-
-
-# Change all occurences, print the  output and write it to a file
-sed -n 's/Linux/Linux-Unix/gpw output' myfile.txt
-
-
-# Replace "-" with empty string
-sed 's/\-/\/g' myfile.txt
+sed 's/Linux/Linux-Unix/g' myfile.txt			# substitute all appearances now
+sed 's/Linux/Linux-Unix/2' myfile.txt			# Change the second occurence
+sed -n 's/Linux/Linux-Unix/gpw output' myfile.txt	# Change all occurences, print the  output and write it to a file
+sed 's/\-/\/g' myfile.txt				# Replace "-" with empty string
