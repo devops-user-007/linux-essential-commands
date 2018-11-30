@@ -1,0 +1,11 @@
+--2018-11-30 03:48:42--  https://pkg.jenkins.io/debian-stable/jenkins.io.key
+Resolving pkg.jenkins.io (pkg.jenkins.io)... 52.202.51.185
+Connecting to pkg.jenkins.io (pkg.jenkins.io)|52.202.51.185|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9132 (8.9K) [application/pgp-keys]
+Saving to: ‘/opt/jenkinskey’
+
+     0K ........                                              100% 22.6M=0s
+
+2018-11-30 03:48:43 (22.6 MB/s) - ‘/opt/jenkinskey’ saved [9132/9132]
+
