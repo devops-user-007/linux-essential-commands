@@ -1,5 +1,5 @@
 apt-get install sshpass -y
-1. sshpass -p 'mypassword' vagrant@192.168.20.2 'df -h'
+1. sshpass -p 'mypassword' ssh vagrant@192.168.20.2 'df -h'
 
 2. Using environment variable
 export SSHPASS='root'
